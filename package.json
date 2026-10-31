@@ -1,0 +1,16 @@
+{
+  "name": "@rushi-me/claude-statusline",
+  "version": "1.0.0",
+  "description": "Claude Code status line: model, context tokens, session cost, rate limits, git info",
+  "bin": {
+    "claude-statusline": "./bin/install.js"
+  },
+  "files": ["bin"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushi-me/claude-statusline.git"
+  },
+  "keywords": ["claude", "claude-code", "statusline", "cli"],
+  "license": "MIT",
+  "author": "rushi-me"
+}

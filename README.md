@@ -14,15 +14,17 @@ weekly  ●○○○○○○○○○   8% ⟳ nov 3, 3:00pm
 ## Install
 
 ```bash
-npx github:rushi-me/claude-statusline
+npx @rushi-me/claude-statusline
 ```
+
+Or straight from GitHub: `npx github:rushi-me/claude-statusline`
 
 Backs up any existing `~/.claude/statusline.sh` to `statusline.sh.bak`, installs the script, and sets `statusLine` in `~/.claude/settings.json`. Restart Claude Code afterwards.
 
 ## Uninstall
 
 ```bash
-npx github:rushi-me/claude-statusline --uninstall
+npx @rushi-me/claude-statusline --uninstall
 ```
 
 Restores the backup if one exists; otherwise removes the script and the `statusLine` setting.
